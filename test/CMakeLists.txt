@@ -8,7 +8,7 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(
     advent_of_code_tests
-    day7_test.cpp    
+    day6_test.cpp    
 )
 
 target_link_libraries(
