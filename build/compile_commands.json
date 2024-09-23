@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/src",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -g -ggdb -Werror -Wall -Wpedantic -o CMakeFiles/advent_of_code.dir/main.cpp.o -c /home/mikhail/programming/c++/exercises/advent_of_code/src/main.cpp",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/src/main.cpp",
+  "output": "src/CMakeFiles/advent_of_code.dir/main.cpp.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/src",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -g -ggdb -Werror -Wall -Wpedantic -o CMakeFiles/advent_of_code.dir/day7.cpp.o -c /home/mikhail/programming/c++/exercises/advent_of_code/src/day7.cpp",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/src/day7.cpp",
+  "output": "src/CMakeFiles/advent_of_code.dir/day7.cpp.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/test",
+  "command": "/usr/bin/c++  -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest -g -std=gnu++20 -o CMakeFiles/advent_of_code_tests.dir/day7_test.cpp.o -c /home/mikhail/programming/c++/exercises/advent_of_code/test/day7_test.cpp",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/test/day7_test.cpp",
+  "output": "test/CMakeFiles/advent_of_code_tests.dir/day7_test.cpp.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/include -I/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/include -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/include -I/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/include -isystem /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/mikhail/programming/c++/exercises/advent_of_code/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

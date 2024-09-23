@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/advent_of_code.dir/main.cpp.o CMakeFiles/advent_of_code.dir/day7.cpp.o -o ../advent_of_code 

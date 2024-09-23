@@ -1,0 +1,5 @@
+if(EXISTS "/home/mikhail/programming/c++/exercises/advent_of_code/build/test/advent_of_code_tests[1]_tests.cmake")
+  include("/home/mikhail/programming/c++/exercises/advent_of_code/build/test/advent_of_code_tests[1]_tests.cmake")
+else()
+  add_test(advent_of_code_tests_NOT_BUILT advent_of_code_tests_NOT_BUILT)
+endif()
