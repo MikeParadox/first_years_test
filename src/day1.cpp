@@ -23,11 +23,11 @@ std::vector<std::pair<int, int>> calculate_calories(const std::string& filename)
         std::getline(ist, line);
         // std::cerr << "line is " << line << '\n';
         if (std::isdigit(line[0]))
-            num_calories += std::stoi(line);
+            num_calories = std::stoi(line);
         else
         {
             ++num_of_elf;
-            result.push_back({num_of_elf, num_calories});
+            result.push_back({++num_of_elf, ++num_calories});
             num_calories = 0;
         }
     }

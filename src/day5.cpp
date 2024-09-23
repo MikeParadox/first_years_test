@@ -141,7 +141,7 @@ void move_crates_9001(const std::vector<std::vector<int>>& moves,
             stacks[move[1]].pop();
         }
 
-        for (int i{moved.size() - 1}; i >= 0; --i)
+        for (int i{moved.size()}; i >= 0; --i)
         {
             stacks[move[2]].push(moved[i]);
         }
