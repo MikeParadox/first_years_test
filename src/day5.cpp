@@ -64,7 +64,7 @@ std::vector<std::stack<char>> parse_stack_file(const std::string& filename)
     int num_of_stack{0};
     for (auto line_of_stacks_in_reverse : stacks_with_crates_in_reverse)
     {
-        for (int i{line_of_stacks_in_reverse.size() - 1}; i >= 0; --i)
+        for (std::size_t i{line_of_stacks_in_reverse.size() - 1}; i >= 0; --i)
         {
             if (line_of_stacks_in_reverse[i] != '0')
                 stacks[num_of_stack].push(line_of_stacks_in_reverse[i]);
@@ -141,7 +141,7 @@ void move_crates_9001(const std::vector<std::vector<int>>& moves,
             stacks[move[1]].pop();
         }
 
-        for (int i{moved.size()}; i >= 0; --i)
+        for (std::size_t i{moved.size()}; i >= 0; --i)
         {
             stacks[move[2]].push(moved[i]);
         }
