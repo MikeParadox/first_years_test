@@ -20,6 +20,6 @@ add_subdirectory(src)
 add_subdirectory(test)
 
 
-target_compile_options(${PROJECT_NAME} PUBLIC -g -ggdb -Werror -Wall -Wpedantic)
+#target_compile_options(${PROJECT_NAME} PUBLIC -g -ggdb -Werror -Wall -Wpedantic)
 # -ftime-report)
 

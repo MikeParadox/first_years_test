@@ -42,7 +42,7 @@ find_unique_chars(const std::vector<std::pair<std::string, std::string>>& vec)
             }
         }
     }
-
+    result = std::vector<char>(vec.size());
     return result;
 }
 
